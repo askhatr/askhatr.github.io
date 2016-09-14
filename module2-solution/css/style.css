@@ -23,7 +23,7 @@ h1 {
   padding: 10px;
 }
 
-section {
+.section {
   position: relative;
   border: 1px solid black;
   background-color: lightgrey;
