@@ -1,0 +1,33 @@
+body {
+	font-family: 'Maven Pro', sans-serif;
+}
+
+#header-nav {
+	height: 80px;
+	background-color: #dadae1;
+	border-radius: 0;
+	border-bottom: 1px solid black;
+}
+
+.navbar-brand h1 {
+	color: black;
+	margin: 0;
+}
+
+.navbar-header button.navbar-toggle {
+  border: 1px solid black;
+  margin-top: 19px;
+  margin-bottom: 20px;
+}
+
+.navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle:active, .navbar-header button.navbar-toggle:hover {
+  border: 1px solid #ffffff;
+}
+
+.navbar-header .icon-bar:active, .navbar-header .icon-bar:hover {
+  border: 2px solid #ffffff;
+}
