@@ -59,6 +59,10 @@ body {
 	margin: 0 -15px;
 }
 
+h2 {
+	margin-top: 0;
+}
+
 .main-text {
 	background-color: #E4F1E2;
 	padding: 15px;
