@@ -3,31 +3,67 @@ body {
 }
 
 #header-nav {
-	height: 80px;
-	background-color: #dadae1;
+	background-color: #3E8D01;
 	border-radius: 0;
 	border-bottom: 1px solid black;
 }
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+}
+
 .navbar-brand h1 {
 	color: black;
-	margin: 0;
+	margin: -10px 0 0;
 }
 
-.navbar-header button.navbar-toggle {
+.navbar-default .navbar-toggle.collapsed {
+  border-color: #A4ABB0;
+}
+
+.navbar-default .navbar-toggle {
+  margin-top: 6px;
+  margin-bottom: 7px;
+}
+
+.navbar-default .navbar-toggle.collapsed {
   border: 1px solid black;
-  margin-top: 19px;
-  margin-bottom: 20px;
 }
-
-.navbar-header .icon-bar {
+.navbar-default .navbar-toggle.collapsed .icon-bar {
   border: 2px solid black;
 }
 
-.navbar-header button.navbar-toggle:active, .navbar-header button.navbar-toggle:hover {
+.navbar-default .navbar-toggle {
   border: 1px solid #ffffff;
 }
 
-.navbar-header .icon-bar:active, .navbar-header .icon-bar:hover {
+.navbar-default .navbar-toggle .icon-bar {
   border: 2px solid #ffffff;
+}
+
+#collapsible-nav {
+	font-size: 1.2em;
+	border-top: 0;
+}
+
+#nav-list {
+	background-color: #99CC99;
+}
+
+#collapsible-nav li a {
+	color: black;
+	border: 1px solid black;
+}
+
+#nav-list.nav.navbar-nav {
+	margin: 0 -15px;
+}
+
+.main-text {
+	background-color: #E4F1E2;
+	padding: 15px;
+}
+
+.padded {
+	padding: 15px;
 }
